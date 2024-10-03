@@ -3,3 +3,6 @@ registry: data/registry.db     # Caminho onde o registro de features será salvo
 provider: local                # Pode ser 'local' ou 'gcp', 'aws' para nuvem
 offline_store:
     type: file
+online_store:
+    type: sqlite
+    path: data/online_store.db
